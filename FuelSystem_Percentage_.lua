@@ -1,4 +1,3 @@
---Made by KapKing47--
 
 --SETTINGS--
 --Visualize BSFC curve here: https://www.desmos.com/calculator/poapnuglk7
@@ -13,7 +12,7 @@ local AChassisKitVersion = 1 --0 for old. 1 for new. If you notice that there is
 local studsPerMile = 6336 --A-Chassis kit default is 6336. If you assume 1 stud = 1 foot then 5280 should be used instead
 ---------------------------
 
---DO NOT MODIFY--
+-- Connection to Car GUI --
 local gui = script.Parent
 local gauge = script.Gauge
 local car = gui.Car.Value
